@@ -1,0 +1,488 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: #E5E5E5;
+    color: #171717;
+}
+
+/* Styling of the contents for the header */
+.header {
+    background-color: #0D1957;
+    position: static;
+    top: 0;
+    padding: 3rem;
+    margin-bottom: 3rem;
+}
+.menu {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.title {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.25rem;
+    line-height: 1.5rem;
+    color: #FAFAF9;
+    margin-left: 6rem;
+}
+.navbar {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+}
+.navbar > a {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    text-decoration: none;
+    margin: 0 1rem;
+    color: #FAFAF9;
+}
+.signup{
+    background: #FFFFFF;
+    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+    border-radius: 1.25rem;
+    padding: 0.5rem 1.5rem;
+}
+.signup > span {
+    color: #171717;
+}
+
+
+/* Styling of the First section */
+.section-1 {
+    margin: 5rem 7.75rem;
+    display: flex;
+    /* flex-wrap: wrap; */
+    flex-direction: row;
+}
+.section-1-title {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 8rem;
+    line-height: 10.63rem;
+    letter-spacing: -0.13rem;
+    text-transform: uppercase;
+    color: #171717;
+    width: 55.19rem;
+}
+.section-1-para{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    color: #232532;
+    width: 35.00rem;
+    margin: 3rem 0;
+}
+.section-1-btn{
+    background-color: #E6533C;
+    padding: 1.5rem;
+    border-radius: 0.63rem;
+    color: white;
+    font-size: 1.13rem;
+    font-weight: 600;
+    cursor: pointer;
+}
+
+/* styling of the image in the first section  */
+.runner {
+    z-index: 20;
+    position: relative;
+    right: 30%;
+}
+
+/* STYLING OF SECTION 2 */
+.section-2 {
+    margin: 15rem 5.25rem;
+}
+.section-2-head {
+    margin-bottom: 2.5rem;
+}
+.section-2-title {
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.13rem;
+    margin-bottom: 2rem;
+    color: #171717;
+}
+.section-2-para{
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    color: #171717;
+}
+.section-2-body {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 4rem;
+}
+.section-2-links {
+    /* margin: 0 2rem; */
+    display: flex;
+    flex-direction: row;
+    padding: 3.25rem 2.5rem;
+    background: #323443;
+    border-radius: 0.75rem;
+    gap: 2rem;
+}
+.section-2-links-body{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.section-2-links-body > h3 {
+    font-family: 'Inter';
+    font-size: 1rem;
+    font-weight: 600;
+    color: #FAFAF9;
+}
+.section-2-links-body > p {
+    font-family: 'Inter';
+    font-weight: 400;
+    font-size: 0.811rem;
+    line-height: 1.5rem;
+    color: rgba(239, 237, 232, 0.65);
+}
+.svg-1 {
+    width: 3rem;
+    height: 3rem;
+    color: #FAFAF9;
+}  
+
+
+
+/* STYLING FOR ALL CONTENTS OF SECTION 3 */
+.section-3{
+    margin: 7.5rem 7.75rem;
+}
+.section-3-f {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10rem 0;
+}
+.subsection-3 {
+    width: 50%;
+    margin-right: 4rem;
+}
+.subsection-3 > h1 {
+    margin-bottom: 2.5rem;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.13rem;
+    color: #171717;
+}
+.subsection-3 > p {
+    font-weight: 400;
+    font-size: 0.88rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.3px;
+    color: #171717;
+    margin-bottom: 1.75rem;
+}
+.subsection-3 > a {
+    text-decoration: none;
+    display: inline-flex;
+    gap: 0.5rem;
+    color: white;
+}
+.subsection-3 > a > h2 {
+    color: #0070C9;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.63rem;
+    letter-spacing: 0.5px;
+}
+.subsection-3-b {
+    margin-right: 0;
+}
+.svg-2 {
+    width: 1.5rem;
+    height: 1.5rem;
+}
+
+
+
+/* STYLING FOR SECTION 4 AND ITS CONTENTS */
+.section-4 {
+    margin: 12.5rem 9rem;
+}
+.section-4-title {
+    font-family: 'Inter';
+    font-weight: 500;
+    font-size: 3.1rem;
+    line-height: 4.38rem;
+    letter-spacing: 0.83px;
+    color: #232532;
+}
+.line {
+    width: 100%;
+    opacity: 0.4;
+    border: 0.5px solid #656565;
+    margin: 2rem 0;
+}
+.subsection-4 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 3rem;
+}
+.section-4-body {
+    background: #232532;
+    padding: 4.25rem;
+    height: 30rem;
+}
+.section-4-body > h2 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 2.5rem;
+    line-height: 3.13rem;
+    text-align: center;
+    letter-spacing: 0.3px;
+    color: #FAFAF9;
+    margin-bottom: 2rem;
+}
+.section-4-body > p{
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.13rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    color: rgba(239, 237, 232, 0.65);
+    margin-bottom: 1rem;
+}
+.section-4-body > ul {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.13rem;
+    line-height: 1.5rem;
+    letter-spacing: 0.5px;
+    color: rgba(239, 237, 232, 0.65);
+}
+.section-4-body > a {
+    margin-top: 6.38rem;
+    text-decoration: none;
+    display: inline-flex;
+    gap: 0.5rem;
+    color: white;
+}
+.section-4-body > a > h2 {
+    color: #0070C9;
+    font-weight: 600;
+    font-size: 1rem;
+    line-height: 1.63rem;
+    letter-spacing: 0.5px;
+}
+.section-4-body > button {
+    margin-top: 1.75rem;
+    padding: 0.25rem 0.88rem;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 1rem;
+    color: #FAFAF9;
+    background: #0070C9;
+    border: 0;
+    border-radius: 0.63rem;
+    cursor: pointer;
+}
+
+
+/* Styling of the footer section of the webpage */ 
+.footer {
+    background: #0D1957;
+    position: static;
+    bottom: 0;
+    padding: 6rem 12rem;
+}
+.info-det {
+    display: flex;
+    /* flex-wrap: wrap; */
+    justify-content: space-between;
+}
+.info-section {
+    display: flex;
+    flex-direction: column;
+}
+.info-section > h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: white;
+}
+.info-section >a {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.25rem;
+    color: white;
+    opacity: 0.75;
+}
+.subscribe {
+    padding: 1.88rem;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 21.13rem;
+    height: 14.5rem;
+    background: #4c63d7;
+}
+.subscribe > h3 {
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    color: white;
+}
+.mail-input {
+    box-sizing: border-box;
+    display: inline-flex;
+    margin: 1.25rem 0;
+    width: max-content;
+
+}
+.mail-input > input {
+    padding: 1rem;
+    background-color: white;
+    border: none;
+    width: auto;
+}
+.mail-input > button {
+    border: none;
+    background: #0081FE;
+    padding: 1rem;
+    cursor: pointer;
+}
+.subscribe > p {
+    text-decoration: none;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 0.75rem;
+    line-height: 1.25rem;
+    color: white;
+    opacity: 0.6;
+}
+
+.media {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.media > h1 {
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.5rem;
+    line-height: 29px;
+    color: #FAFAF9;
+}
+
+.conditions {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+.conditions > a {
+    text-decoration: none;
+    margin: 0 1rem;
+    font-family: 'Montserrat';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 0.88rem;
+    line-height: 1rem;
+    color: #FFFFFF;
+}
+.social-media {
+    display: flex;
+    align-items: center;
+}
+.social-media > a {
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+}
+
+
+
+
+
+@media (max-width: 640px) {
+    html {
+        font-size: 62.5%;
+    }
+}
+@media (max-width: 768px ) {
+    html {
+        font-size: 12px;
+    }
+    .runner {
+        z-index: -10;
+        opacity: 0.5;
+        width: 50%;
+        object-fit: cover;
+    }
+    .det, .distance, .videos, .section-4-body > ul, .section-4-body > p, .subsection-3 > p {
+        display: none;
+    }
+    .section-2-body {
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .section-3-f-1 {
+        flex-direction: column-reverse;
+    }
+    .section-3-f > img {
+        width: 50%;
+        object-fit: cover;
+    }
+    .section-3-f, .media {
+        flex-wrap: wrap;
+        text-align: center;
+        margin: 1.5rem 0;
+        gap: 2rem;
+        justify-content: center;
+    }
+    .subsection-4 {
+        flex-direction: column;
+    }
+    .section-4-body {
+        padding: 2rem;
+        height: max-content;
+    }
+    .section-4-body > a {
+        margin-top: auto;
+    }
+    .section-4-body > button {
+        margin-top: auto;
+    }
+    .info-det {
+        flex-wrap: wrap-reverse;
+        gap: 2rem 1rem;
+    }
+}
+@media (max-width: 1024px) {
+    html {
+        font-size: 87.5%;
+    }
+}
