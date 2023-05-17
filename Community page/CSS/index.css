@@ -1,0 +1,370 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  background-color: #ffffff;
+  color: #171717;
+  font-family: "Montserrat", sans-serif;
+}
+
+/* Styling navigation bar */
+.header {
+  background-color: #0d1957;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: #ffffff;
+  padding: 2rem;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.navbar {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.title {
+  font-size: 25px;
+  font-family: "sofia", sans-serif;
+  cursor: pointer;
+}
+
+.navbar a {
+  color: #ffffff;
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: none;
+}
+
+.navbar a:hover {
+  color: #ffffff;
+  background-color: #15246f;
+  text-decoration: none;
+}
+
+.signup {
+  background: #ffffff;
+  border-radius: 1.25rem;
+  padding: 0.5rem 1.5rem;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.signup:hover {
+  background-color: #dbd5d5;
+}
+
+/* Notification bar*/
+.notify {
+  display: flex;
+  justify-content: space-between;
+  text-align: center;
+  padding: 1rem;
+  border-bottom: 1px solid #666668;
+  font-weight: 500;
+}
+
+.notify .avatar {
+  gap: -20px;
+}
+
+.notify .last {
+  color: #666668;
+  font-size: 15px;
+  font-weight: 300;
+}
+
+/* CHAT SECTION  */
+.chat {
+  margin: 0px 200px 100px 200px;
+}
+
+.chat h3 {
+  text-align: center;
+  padding: 10px;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.messages img {
+  width: 30px;
+  height: 30px;
+}
+
+.messages {
+  display: flex;
+  gap: 10px;
+}
+
+.messages-details {
+  background-color: #f2f2f7;
+  line-height: 20px;
+  border-radius: 5px;
+  padding: 4px;
+  font-size: 15px;
+}
+
+.name {
+  font-weight: 500;
+}
+
+.prof {
+  padding-left: 5px;
+  font-weight: 400;
+  color: #666668;
+  font-size: 12px;
+}
+
+.time {
+  text-align: right;
+  font-weight: 300;
+  font-size: 12px;
+}
+
+.left-messages {
+  display: flex;
+  justify-content: right;
+}
+
+.left-messages-details {
+  background-color: #007aff;
+  color: #ffffff;
+  line-height: 20px;
+  border-radius: 5px;
+  padding: 10px;
+  font-size: 15px;
+}
+
+.send {
+  text-align: center;
+  margin-top: 5rem;
+}
+
+.send input {
+  width: 500px;
+  padding: 6px;
+}
+
+/* STYLING FOR ALL CONTENTS OF SECTION 2 */
+.section-2 {
+  margin: 15rem 7.75rem;
+}
+
+.section-2-head > h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 50px;
+  letter-spacing: 0.3px;
+  color: #171717;
+}
+
+.section-2-head > p {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  color: #232532;
+}
+
+.section-2-f {
+  display: flex;
+  justify-content: space-between;
+  gap: 40px;
+  align-items: center;
+  margin: 4rem 0;
+}
+
+.subsection-2 {
+  width: 50%;
+}
+
+.subsection-2 > h1 {
+  margin-bottom: 2.5rem;
+  font-weight: 600;
+  font-size: 2.5rem;
+  line-height: 2.13rem;
+  color: #171717;
+}
+
+.subsection-2 > p {
+  font-weight: 400;
+  font-size: 0.88rem;
+  line-height: 1.5rem;
+  letter-spacing: 0.3px;
+  color: #171717;
+  margin-bottom: 1.75rem;
+}
+
+.subsection-2 > a {
+  text-decoration: none;
+  display: inline-flex;
+  gap: 0.5rem;
+  color: white;
+}
+
+.subsection-2 > a > h2 {
+  color: #0070c9;
+  font-weight: 600;
+  font-size: 1rem;
+  line-height: 1.63rem;
+  letter-spacing: 0.5px;
+}
+
+.subsection-2-b {
+  margin-right: 0;
+}
+
+.svg-2 {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+
+/* Styling of the footer section of the webpage */
+.footer {
+  background: #0d1957;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  bottom: 0;
+  padding: 6rem 12rem;
+}
+
+.info-det {
+  display: flex;
+  gap: 100px;
+}
+
+.info-section {
+  display: flex;
+  flex-direction: column;
+}
+
+.info-section > h3 {
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.75rem;
+  color: white;
+}
+
+.info-section > a {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 1rem;
+  line-height: 1.25rem;
+  color: white;
+  opacity: 0.75;
+}
+
+.line {
+  width: 100%;
+  opacity: 0.4;
+  border: 0.5px solid #656565;
+}
+
+.subscribe {
+  padding: 1.88rem;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  height: 14.5rem;
+  background: #4c63d7;
+}
+
+.subscribe p {
+  font-size: 14px;
+  text-align: justify;
+  color: #fff;
+}
+
+.subscribe > h3 {
+  color: white;
+}
+
+.subscribe-details {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.mail-input {
+  box-sizing: border-box;
+  display: inline-flex;
+}
+
+.mail-input > input {
+  padding: 1rem;
+  background-color: white;
+  border: none;
+}
+
+.mail-input > button {
+  border: none;
+  background: #0081fe;
+  padding: 1rem;
+  cursor: pointer;
+}
+
+.subscribe > p {
+  text-decoration: none;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.25rem;
+  color: white;
+  opacity: 0.6;
+}
+
+.media {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.media > h1 {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1.5rem;
+  line-height: 29px;
+  color: #fafaf9;
+}
+
+.conditions {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.conditions > a {
+  text-decoration: none;
+  margin: 0 1rem;
+  font-family: "Montserrat";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 0.88rem;
+  line-height: 1rem;
+  color: #ffffff;
+}
+
+.social-media {
+  display: flex;
+  align-items: center;
+}
+
+.social-media > a {
+  margin: 0 0.5rem;
+  padding: 0.5rem;
+}
