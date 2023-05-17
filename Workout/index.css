@@ -1,3 +1,5 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
+
 *{
     margin: 0px;
     padding: 0px;
@@ -9,50 +11,53 @@
 
 /* Styling of the contents for the header */
 .header {
-    background-color: #0D1957;
-    position: static;
-    top: 0;
-    padding: 3rem;
-    margin-bottom: 3rem;
-}
-.menu {
+    background-color: #0d1957;
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-.title {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 1.25rem;
-    line-height: 1.5rem;
-    color: #FAFAF9;
-    margin-left: 6rem;
-}
-.navbar {
+    color: #ffffff;
+    padding: 2rem;
+    font-size: 18px;
+    font-weight: 500;
+  }
+  
+  .navbar {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
-}
-.navbar > a {
-    font-family: 'Montserrat';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 1rem;
-    line-height: 1.25rem;
+    gap: 20px;
+  }
+  
+  .title {
+    font-size: 25px;
+    font-family: "sofia", sans-serif;
+    cursor: pointer;
+  }
+  
+  .navbar a {
+    color: #ffffff;
+    padding: 10px;
+    border-radius: 10px;
     text-decoration: none;
-    margin: 0 1rem;
-    color: #FAFAF9;
-}
-.signup{
-    background: #FFFFFF;
-    box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.25);
+  }
+  
+  .navbar a:hover {
+    color: #ffffff;
+    background-color: #15246f;
+    text-decoration: none;
+  }
+  
+  .signup {
+    background: #ffffff;
     border-radius: 1.25rem;
     padding: 0.5rem 1.5rem;
-}
-.signup > span {
-    color: #171717;
-}
+    font-family: "Montserrat", sans-serif;
+    font-weight: 700;
+    cursor: pointer;
+  }
+  
+  .signup:hover {
+    background-color: #dbd5d5;
+  }
 
 
 
