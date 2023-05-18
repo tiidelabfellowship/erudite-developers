@@ -1,5 +1,4 @@
 /* Changing the browsers default settings */
-
 * {
   padding: 0;
   margin: 0;
@@ -9,7 +8,7 @@ body {
   background-color: #ffffff;
   color: #171717;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
+z
 }
 
 /* Styling of the contents for the header */
@@ -27,11 +26,12 @@ body {
   display: flex;
   align-items: center;
   gap: 20px;
+  font-size: 24px;
 }
 
 .title {
   font-size: 25px;
-  font-family: "sofia", sans-serif;
+  font-family: sans-serif;
   cursor: pointer;
 }
 
@@ -50,10 +50,10 @@ body {
 
 .signup {
   background: #ffffff;
+  font-size: 24px;
   border-radius: 1.25rem;
-  padding: 0.5rem 1.5rem;
+  padding: 10px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 700;
   cursor: pointer;
 }
 
@@ -61,42 +61,29 @@ body {
   background-color: #dbd5d5;
 }
 .h1-text {
-  font-size: 64px;
+  font-size: 40px;
   text-align: center;
-  font-weight: 600px;
-  line-height: 88px;
   vertical-align: top;
+  padding: 30px;
 }
 .paragraph-text {
   display: flex;
   justify-content: space-between;
   padding: 64px 77px 265px;
-  border-radius: 40.24px;
 }
 .paragraph-text {
-  font-size: 30px;
+  font-size: 24px;
   font-family: "Montserrat", sans-serif;
-  font-weight: 1050;
-  line-height: 80px;
-  color: white;
+  color:black;
   margin: 0;
   text-align: justify;
-  border-radius: 40px;
-}
-
-.paragraph-text-cont {
-  background-color: #18262f;
-  /* position: relative; */
-  border-bottom-right-radius: 9%;
-  padding-bottom: 50px; /*To be removed*/
-  border-bottom-left-radius: 8%;
+  background-color: white;
 }
 
 img {
   width: 70%;
   position: absolute;
   margin-top: -8%;
-  border-top-left-radius: 25%;
   right: 25%;
 }
 .textandimages {
@@ -106,15 +93,12 @@ img {
 .connect-button {
   width: 500px;
   background-color: #0d1957;
-  height: 56px;
   gap: 8px;
   padding: 8px 16px 8px 16px;
   border-radius: 30px;
 }
 .connect-button {
-  font-weight: 600;
   color: white;
-  line-height: 24px;
   text-align: center;
   size: 16px;
 }
@@ -122,19 +106,19 @@ img {
 .getintouch {
   width: 100%;
   height: 100%;
-  margin-top: 45%;
+  margin-top: 35%;
   text-align: center;
+  font-size: 30px;
 }
+
 .getintouch h2 {
-  font-size: 60px;
+  font-size: 50px;
 }
 
 .form-box {
   background: transparent;
-  margin: 0 auto;
   backdrop-filter: blur(20px);
   width: 40%;
-  border: 0%;
 }
 
 .contact100-form {
@@ -198,42 +182,38 @@ input.input100 {
   background-color: #0d1957;
   color: white;
   border-radius: 30px;
-  padding: 2% 5% 2% 5%;
-  margin-bottom: 30%;
+  padding: 25px;
+  margin-bottom: 5%;
   margin-top: 3%;
+  font-size:20px;
 }
 
 .footer {
-  background: #0d1957;
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
+  background: #0D1957;
+  position: static;
   bottom: 0;
   padding: 6rem 12rem;
 }
-
 .info-det {
   display: flex;
-  gap: 100px;
+  /* flex-wrap: wrap; */
+  justify-content: space-between;
 }
-
 .info-section {
   display: flex;
   flex-direction: column;
 }
-
 .info-section > h3 {
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 700;
   font-size: 1rem;
   line-height: 1.75rem;
   color: white;
 }
-
-.info-section > a {
+.info-section >a {
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 1rem;
@@ -241,59 +221,45 @@ input.input100 {
   color: white;
   opacity: 0.75;
 }
-
-.line {
-  width: 100%;
-  opacity: 0.4;
-  border: 0.5px solid #656565;
-}
-
 .subscribe {
   padding: 1.88rem;
   display: flex;
   flex-direction: column;
-  gap: 15px;
+  flex-wrap: wrap;
+  width: 21.13rem;
   height: 14.5rem;
   background: #4c63d7;
 }
-
-.subscribe p {
-  font-size: 14px;
-  text-align: justify;
-  color: #fff;
-}
-
 .subscribe > h3 {
+  font-family: 'Montserrat';
+  font-style: normal;
+  font-weight: 700;
+  font-size: 1rem;
+  line-height: 1.75rem;
   color: white;
 }
-
-.subscribe-details {
-  display: flex;
-  flex-direction: column;
-  gap: 20px;
-}
-
 .mail-input {
   box-sizing: border-box;
   display: inline-flex;
-}
+  margin: 1.25rem 0;
+  width: max-content;
 
+}
 .mail-input > input {
   padding: 1rem;
   background-color: white;
   border: none;
+  width: auto;
 }
-
 .mail-input > button {
   border: none;
-  background: #0081fe;
+  background: #0081FE;
   padding: 1rem;
   cursor: pointer;
 }
-
 .subscribe > p {
   text-decoration: none;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 400;
   font-size: 0.75rem;
@@ -307,14 +273,13 @@ input.input100 {
   justify-content: space-between;
   align-items: center;
 }
-
 .media > h1 {
-  font-family: "Inter";
+  font-family: 'Inter';
   font-style: normal;
   font-weight: 700;
   font-size: 1.5rem;
   line-height: 29px;
-  color: #fafaf9;
+  color: #FAFAF9;
 }
 
 .conditions {
@@ -322,24 +287,28 @@ input.input100 {
   justify-content: space-evenly;
   align-items: center;
 }
-
 .conditions > a {
   text-decoration: none;
   margin: 0 1rem;
-  font-family: "Montserrat";
+  font-family: 'Montserrat';
   font-style: normal;
   font-weight: 500;
   font-size: 0.88rem;
   line-height: 1rem;
-  color: #ffffff;
+  color: #FFFFFF;
 }
-
 .social-media {
   display: flex;
   align-items: center;
 }
-
 .social-media > a {
   margin: 0 0.5rem;
   padding: 0.5rem;
+}
+
+.line {
+  width: 100%;
+  opacity: 0.4;
+  border: 0.5px solid #FFFFFF;
+  margin: 2rem 0;
 }
