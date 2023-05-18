@@ -1,15 +1,15 @@
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;1,100;1,500&family=Roboto:wght@100&display=swap');
 
 * {
     padding: 0px;
     margin:0px;
+    font-family: sans-serif, 'Montserrat';
 }
 
 body {
     margin: 5px;
     padding:10px;
     font-size: 1.1em;
-    font-family: 'Montserrat', sans-serif;
+
 }
 
 .auth-container {
@@ -25,11 +25,13 @@ body {
 .tracker {
     text-align: left;
     margin-left: 15px;
+    font-size: 30px;
 }
 
 .erudite {
     margin: 20px 50px;
     padding: 40px;
+
 }
 
 .erudite-access {
@@ -143,7 +145,6 @@ a {
     flex-direction: column;
 }
 .info-section > h3 {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
@@ -152,7 +153,6 @@ a {
 }
 .info-section >a {
     text-decoration: none;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 1rem;
@@ -171,7 +171,6 @@ a {
     margin-bottom: 30px;
 }
 .subscribe > h3 {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 700;
     font-size: 1rem;
@@ -203,7 +202,6 @@ a {
 
 .subscribe > p {
     text-decoration: none;
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 0.75rem;
@@ -222,7 +220,6 @@ a {
 
 }
 .media > h1 {
-    font-family: 'Inter';
     font-style: normal;
     font-weight: 700;
     font-size: 1.5rem;
