@@ -1,12 +1,10 @@
-@import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,300;0,400;0,500;0,600;0,700;1,500&display=swap");
-
 *{
     margin: 0px;
     padding: 0px;
 }
 .body {
-    width: 100vw;
-    font-family: 'Montserrat';
+    width: auto;
+    font-family: sans-serif;
 }
 
 
@@ -35,9 +33,9 @@
   }
   
   .title {
-    font-size: 25px;
-    font-family: "sofia", sans-serif;
+    font-size: 28px;
     cursor: pointer;
+    font-family: 'Montserrat';
   }
   
   .navbar a {
@@ -53,7 +51,7 @@
     text-decoration: none;
   }
   
-  .signup {
+  /* .signup {
     background: #ffffff;
     border-radius: 1.25rem;
     padding: 0.5rem 1.5rem;
@@ -64,7 +62,7 @@
   
   .signup:hover {
     background-color: #dbd5d5;
-  }
+  } */
 
 
 
@@ -72,14 +70,13 @@
     margin: 7.5rem;
 }
 #date{
-    font-family: 'Montserrat';
     color:grey;
     padding:5px 15px;
 }
 
 #name{
     /* color: black; */
-    font-family: 'inter';
+    /* font-family: 'inter'; */
     font-style: normal;
     font-weight: 700;
     font-size: 1.3rem;
@@ -96,7 +93,6 @@
 }
 
 #header > p{
-    font-family: 'Montserrat';
     color:#FAFAF9;
     font-weight: 600;
 }
@@ -106,7 +102,6 @@ progress {
 }
 #activity{
     padding: 15px;
-    font-family: 'Montserrat';
     font-weight: 700;
 }
 
@@ -127,7 +122,6 @@ progress {
     margin: 7.5rem 7.75rem;
 }
 .section-2-head > h2 {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 600;
     font-size: 40px;
@@ -137,7 +131,6 @@ progress {
     margin-bottom: 1.25rem;
 }
 .section-2-head > p {
-    font-family: 'Montserrat';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
