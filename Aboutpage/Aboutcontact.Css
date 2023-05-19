@@ -8,7 +8,7 @@ body {
   background-color: #ffffff;
   color: #171717;
   font-family: "Montserrat", sans-serif;
-z
+
 }
 
 /* Styling of the contents for the header */
@@ -22,17 +22,17 @@ z
   font-size: 14px;
 }
 
+.title {
+  font-size: 25px;
+  font-family: "sofia", sans-serif;
+  cursor: pointer;
+}
+
 .navbar {
   display: flex;
   align-items: center;
   gap: 20px;
   font-size: 24px;
-}
-
-.title {
-  font-size: 25px;
-  font-family: sans-serif;
-  cursor: pointer;
 }
 
 .navbar a {
@@ -55,6 +55,10 @@ z
   padding: 10px;
   font-family: "Montserrat", sans-serif;
   cursor: pointer;
+}
+
+.signup a {
+  color:black;
 }
 
 .signup:hover {

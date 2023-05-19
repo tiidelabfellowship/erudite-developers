@@ -32,11 +32,11 @@
     gap: 20px;
   }
   
-  .title {
-    font-size: 28px;
-    cursor: pointer;
-    font-family: 'Montserrat';
-  }
+    .title {
+      font-size: 25px;
+      font-family: "sofia", sans-serif;
+      cursor: pointer;
+    }
   
   .navbar a {
     color: #ffffff;

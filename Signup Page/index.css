@@ -10,7 +10,9 @@ img {
 }
 
 .tracker {
-    font-size: 30px;
+    font-size: 25px;
+    font-family: "sofia", sans-serif;
+    cursor: pointer;
 }
 
 .first-form {
@@ -44,6 +46,11 @@ input {
     height: 50px;
     border-radius: 5px;
     color:white;
+}
+
+.btn1 a {
+    color: white;
+    text-decoration: none;
 }
 .footer {
     background: #0D1957;

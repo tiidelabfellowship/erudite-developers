@@ -71,6 +71,10 @@ body {
   cursor: pointer;
 }
 
+.btn a {
+  text-decoration: none;
+  color: white;
+}
 .btn:hover {
   background-color: #1d2d7d;
 }
@@ -85,7 +89,7 @@ body {
   justify-content: space-between;
   align-items: center;
   gap: 20px;
-  padding: 0px 100px 250px 100px;
+  padding: 0px 100px 70px 100px;
 }
 
 .bmi-showcase img {
@@ -267,7 +271,7 @@ body {
 
 .bmi-record {
   text-align: center;
-  margin-top: 200px;
+  margin-top: 100px;
 }
 
 .bmi-record .title-btn {
