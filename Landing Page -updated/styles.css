@@ -11,7 +11,6 @@ body {
   color: #171717;
   font-family: "Montserrat", sans-serif;
 }
-
 /* Styling of the contents for the header */
 .header {
   background-color: #0d1957;
@@ -44,9 +43,10 @@ body {
 
 .navbar a:hover {
   color: #ffffff;
-  background-color: #15246f;
   text-decoration: none;
 }
+
+
 
 .signup {
   background: #ffffff;
@@ -54,6 +54,11 @@ body {
   padding: 0.5rem 1.5rem;
   font-weight: 700;
   cursor: pointer;
+}
+
+.signup a {
+  text-decoration: none;
+  color: black;
 }
 
 .signup:hover {
