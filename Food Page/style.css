@@ -22,6 +22,10 @@ body{
     cursor: pointer;
   }
 
+  .title a {
+    text-decoration: none;
+  }
+
 #log-out{
     height: 40px;
     width: 100px;

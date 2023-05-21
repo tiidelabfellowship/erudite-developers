@@ -15,6 +15,14 @@ img {
     cursor: pointer;
 }
 
+.tracker a{
+    font-size: 25px;
+    font-family: "sofia", sans-serif;
+    cursor: pointer;
+    text-decoration: none;
+    color:#0D1957;
+}
+
 .first-form {
     display: flex;
     margin: 50px 0px;

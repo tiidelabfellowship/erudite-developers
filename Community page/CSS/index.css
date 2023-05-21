@@ -36,6 +36,11 @@ body {
   cursor: pointer;
 }
 
+.title a {
+  text-decoration: none;
+  color:white;
+}
+
 .navbar a {
   color: #ffffff;
   padding: 10px;
