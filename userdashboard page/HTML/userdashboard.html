@@ -1,0 +1,489 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTAWESOME-ICON LINK -->
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+    <link rel="stylesheet" href="../CSS/userdashboard.css" />
+    <title>UserDashboard</title>
+  </head>
+  <body>
+    <section class="dashboard-wrapper">
+      <!-- USER DASHBOARD NAVIGATION ICONS -->
+      <section class="side-icon">
+        <div class="navbar-container">
+          <h1><i class="fa-sharp fa-solid fa-dumbbell"></i></h1>
+          <ul>
+            <a href=""><i class="fa-solid fa-house"></i></a>
+            <a href=""><i class="fa-solid fa-bolt"></i></a>
+            <a href=""><i class="fa-solid fa-person-running"></i></a>
+            <a href=""><i class="fa-solid fa-paper-plane"></i></a>
+            <a href=""><i class="fa-solid fa-compass"></i></a>
+            <a href=""><i class="fa-solid fa-gear"></i></a>
+            <a href=""><i class="fa-solid fa-wallet"></i></a>
+          </ul>
+        </div>
+      </section>
+
+      <!-- USERS DASHBOARD SHOWCASE SECTION -->
+      <section class="showcase-wrapper">
+
+          <!-- The header bar -->
+    <section class="headerWrapper">
+      <div class="greeting">
+        <p>Good morning</p>
+        <h1>Welcome Back🎉</h1>
+      </div>
+      <div class="headerIcon">
+        <button>Subscribe</button>
+        <p class="bellIcon"><i class="fa-solid fa-bell"></i></p>
+        <p class="plusIcon"><i class="fa-solid fa-circle-plus"></i></p>
+      </div>
+    </section>
+
+    <!-- activity Section -->
+    <section class="cardWrapper">
+      <div class="cardContainer">
+        <div class="cardStep">
+          <p class="stepIcon"><i class="fa-solid fa-person-running"> </i> <span>Steps</span></p>
+          <p class="numberStep">2,500 <span>Steps</span></p>
+        </div>
+        <div class="card-progress-wrapper">
+          <progress
+            id="step-progress"
+            class="card-progress"
+            value="50"
+            max="100"
+          ></progress>
+          <label for="step-progress"> 50% of your goals </label>
+        </div>
+      </div>
+      <!-- The Water Card -->
+      <div class="waterContainer">
+        <p class="waterDroplet">
+          <i class="fa-solid fa-droplet"></i> <span>Water</span>
+        </p>
+        <div class="water">
+          <p>1.25</p>
+          <p>Liters</p>
+        </div>
+      </div>
+
+      <!-- calories card -->
+      <div class="caloriesContainer">
+        <p id="caloriesIcon">
+           <p><i class="fa-solid fa-fire"> </i> <span>Calories</span></p>
+        </p>
+        <div class="guage">
+          <div class="guageFill"></div>
+          <div class="guageCover">
+            <p id="today">Today</p>
+            <p>Under</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Heart card -->
+      <div class="heartContainer">
+        <div class="heartIcon">
+          <p><i class="fa-solid fa-heart"> </i> <span>Heart rate</span> </p>
+          <img src="../images/Vector.png" alt="heart icon">
+          <p>110BPM</p>
+        </div>
+      </div>
+    </section> 
+
+    <section class="progress-section">
+      <section class="activity-progress-wrapper">
+      <div class="activity-wrapper">
+        <div class="activity">
+          <p>Activity</p>
+          <button>weekly<i class="fa-solid fa-caret-down"></i></button>
+        </div>
+        <div class="chart-1">
+          <div class="bar" style="height: 40px; background-color: #ccc">
+            <div class="label">Sun</div>
+          </div>
+          <div class="bar" style="height: 90px; background-color: #ccc">
+            <div class="label">Mon</div>
+          </div>
+          <div class="bar" style="height: 58px; background-color: #ccc">
+            <div class="label">Tue</div>
+          </div>
+          <div class="bar" style="height: 50px; background-color: #ccc">
+            <div class="label">Wed</div>
+          </div>
+          <div class="bar" style="height: 70px; background-color: #ccc">
+            <div class="label">Thurs</div>
+          </div>
+          <div class="bar" style="height: 120px; background-color: coral">
+            <div class="label">Fri</div>
+          </div>
+          <div class="bar" style="height: 40px; background-color: #ccc">
+            <div class="label">Sat</div>
+          </div>
+        </div>
+      </div>
+     </section>
+
+      <section class="progress-container">
+      <div class="progress">
+        <p>progress</p>
+        <button>week <i class="fa-solid fa-caret-down"></i></button>
+      </div>
+      <div class="progress-wrapper">
+        <div class="chart">
+          <div class="segment cardio"></div>
+          <div class="segment strength"></div>
+          <div class="segment treadmill"></div>
+          <div class="segment strecthing"></div>
+        </div>
+        <div class="list">
+          <ul>
+            <li class="list-item">Cardio <span>30hrs</span></li>
+            <li class="list-item">Stretching <span>40hrs</span></li>
+            <li class="list-item">Treadmill <span>30hrs</span></li>
+            <li class="list list-item">Strength <span>20hrs</span></li>
+          </ul>
+        </div>
+      </div>
+    </section>
+   </section>
+
+        <section class="section3container">
+          <div>
+            <h2 class="s3header">Recommended Trainer for you</h2>
+            <div class="doublecardcontainer">
+              <div class="cardcontainer">
+                <div class="imgcontainer">
+                  <div class="fitnessimage1">
+                    <img src="../images/fitnesimage1.svg" alt="fitnesimage" />
+                  </div>
+                  <div class="fitnessimage2">
+                    <img src="../images/fitnessimage2.svg" alt="image" />
+                  </div>
+                </div>
+                <h3 class="s3header2">Cameroun Williamson</h3>
+                <p class="s3text">Fitness Specialist</p>
+                <div class="texticon">
+                  <div>
+                    <p class="emoji">⭐</p>
+                    <p>25</p>
+                  </div>
+                  <div>
+                    <p class="emoji">🥇</p>
+                    <p>104</p>
+                  </div>
+                  <a href="">View profile</a>
+                </div>
+              </div>
+              <div class="cardcontainer">
+                <div class="imgcontainer">
+                  <div class="fitnessimage1">
+                    <img src="../images/fitnesimage1.svg" alt="fitnesimage" />
+                  </div>
+                  <div class="fitnessimage2">
+                    <img src="../images/fitnessimage2.svg" alt="image" />
+                  </div>
+                </div>
+                <h3 class="s3header2">Cameroun Williamson</h3>
+                <p class="s3text">Fitness Specialist</p>
+                <div class="texticon">
+                  <div>
+                    <p class="emoji">⭐</p>
+                    <p>25</p>
+                  </div>
+                  <div>
+                    <p class="emoji">🥇</p>
+                    <p>104</p>
+                  </div>
+                  <a href="">View profile</a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div>
+            <h2 class="s3header">Featured Diet for you</h2>
+            <div class="singlecardcontainer">
+              <div class="breakfast">
+                <p class="menuename">Breakfast</p>
+                <p class="time">10:00 am</p>
+              </div>
+              <div class="avocadocontainer">
+                <div class="imgcont">
+                  <img src="../images/featdiet1.svg" alt="Avocadosalad" />
+                </div>
+                <div class="Avocadosalad">
+                  <h4 class="main">Avocado salad</h4>
+                  <ul class="list">
+                    <li>
+                      <div class="smallcircle purple"></div>
+                      <p>8% carb</p>
+                    </li>
+                    <li>
+                      <div class="smallcircle orange"></div>
+                      <p>10% protein</p>
+                    </li>
+                    <li>
+                      <div class="smallcircle pink"></div>
+                      <p>6% fat</p>
+                    </li>
+                  </ul>
+                  <div class="barcontainer">
+                    <div class="bar1 purple"></div>
+                    <div class="bar2 orange"></div>
+                    <div class="bar3 pink"></div>
+                  </div>
+                </div>
+              </div>
+              <div class="avocadocontainer">
+                <div class="imgcont">
+                  <img src="../images/featdiet2.svg" alt="Berryimage" />
+                </div>
+                <div class="Avocadosalad">
+                  <h4 class="main">Blueberry</h4>
+                  <ul class="list">
+                    <li>
+                      <div class="smallcircle purple"></div>
+                      <p>8% carb</p>
+                    </li>
+                    <li>
+                      <div class="smallcircle orange"></div>
+                      <p>10% protein</p>
+                    </li>
+                    <li>
+                      <div class="smallcircle pink"></div>
+                      <p>6% fat</p>
+                    </li>
+                  </ul>
+                  <div class="barcontainer">
+                    <div class="bar1 purple"></div>
+                    <div class="bar2 orange"></div>
+                    <div class="bar3 pink"></div>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+    </section>
+
+      <!-- USER DASHBOARD PROFILE-RIGHT-SIDE BAR  -->
+      <section class="profile-wrapper">
+        <section class="sidebar-container">
+          <section class="sidebar-wrapper">
+            <!-- Profile section -->
+            <section class="profile">
+              <img src="../images/IDRIS HAROON.jpeg" alt="Profile picture" />
+              <div class="profileName">
+                <p>Idris Haruna</p>
+                <p class="location">
+                  <i class="fa-solid fa-location-dot"></i>
+                  <span>Abuja, Nigeria</span>
+                </p>
+              </div>
+            </section>
+
+            <!-- bodyMass (weight, height and age) section -->
+            <section class="bodyMass">
+              <div class="bodyMass-weight">
+                <h1>75kg</h1>
+                <p>weight</p>
+              </div>
+              <div class="bodyMass-height">
+                <h1>6.5</h1>
+                <p>Height</p>
+              </div>
+              <div class="bodyMass-Age">
+                <h1>45yrs</h1>
+                <p>Age</p>
+              </div>
+            </section>
+
+            <!-- YOUR PERSONAL GOAL SECTION -->
+            <section class="personal-goal">
+              <h1>Your Goals</h1>
+              <!-- Running -->
+              <div class="running-wrapper">
+                <div class="R-goal">
+                  <img src="../images/running.png" alt="image" />
+                  <div>
+                    <p class="title-name">Running</p>
+                    <p class="title-figure">70km/80km</p>
+                  </div>
+                </div>
+                <div class="percentage">
+                  <svg>
+                    <circle cx="20" cy="20" r="20"></circle>
+                    <circle cx="20" cy="20" r="20"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>79%</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Sleeping -->
+              <div class="sleeping-wrapper">
+                <div class="s-goal">
+                  <img src="../images/sleep.jpg" alt="image" />
+                  <div>
+                    <p class="title-name">Sleeping</p>
+                    <p class="title-figure">50hr/60hr</p>
+                  </div>
+                </div>
+                <div class="percentage">
+                  <svg>
+                    <circle cx="20" cy="20" r="20"></circle>
+                    <circle cx="20" cy="20" r="20"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>60%</h2>
+                  </div>
+                </div>
+              </div>
+              <!-- Weight loss -->
+              <div class="weight-wrapper">
+                <div class="w-goal">
+                  <img src="../images/weightloss.jpeg" alt="image" />
+                  <div>
+                    <p class="title-name">Weight Loss</p>
+                    <p class="title-figure">70kg/100kg</p>
+                  </div>
+                </div>
+                <div class="percentage">
+                  <svg>
+                    <circle cx="20" cy="20" r="20"></circle>
+                    <circle cx="20" cy="20" r="20"></circle>
+                  </svg>
+                  <div class="number">
+                    <h2>50%</h2>
+                  </div>
+                </div>
+              </div>
+            </section>
+
+            <!-- MONTHLY PROGRESS -->
+            <section class="monthly-progress">
+              <h1>Monthly Progress</h1>
+              <div class="M-progress-reader">
+                <div class="m-progress">
+                  <!-- <img src="./image/progressImage.jpeg" alt="image" /> -->
+                  <h2>80%</h2>
+                </div>
+                <p>
+                  You have achieved <span>80%</span> of your goal this month.
+                </p>
+              </div>
+            </section>
+
+            <!-- SCHEDULE SECTION -->
+            <section class="schedule">
+              <h1>Schedule</h1>
+              <div class="S-train">
+                <div>
+                  <h1>Training-Yoga class</h1>
+                  <p>Fitness</p>
+                </div>
+                <div>
+                  <p>•••</p>
+                  <p>22 Mar</p>
+                </div>
+              </div>
+              <div class="S-train">
+                <div>
+                  <h1>Training Swimming</h1>
+                  <p>Fitness</p>
+                </div>
+                <div>
+                  <p>•••</p>
+                  <p>22 Mar</p>
+                </div>
+              </div>
+            </section>
+          </section>
+        </section>
+      </section>
+    </section>
+
+    <!-- Footer section of the webpage -->
+    <footer class="footer">
+      <section class="info-det">
+        <div class="info-section">
+          <h3>Product</h3>
+          <a href="">Fitness Tracker</a>
+          <a href="">Community</a>
+          <a href="">Fitness Meal</a>
+          <a href="">Time Tracking</a>
+          <a href="">Fitness Plan</a>
+        </div>
+
+        <div class="info-section">
+          <h3>Information</h3>
+          <a href="">FAQ</a>
+          <a href="">Blog</a>
+          <a href="">Support</a>
+        </div>
+
+        <div class="info-section">
+          <h3>Company</h3>
+          <a href="">About Us</a>
+          <a href="">Careers</a>
+          <a href="">Contact Us</a>
+          <a href="">Erufit Media</a>
+        </div>
+
+        <div class="subscribe">
+          <h3>Subscribe</h3>
+          <div class="subscribe-details">
+            <div class="mail-input">
+              <input type="email" placeholder="Email address" />
+              <button>
+                <i
+                  class="fa-solid fa-arrow-right-long"
+                  style="color: #ffffff"
+                ></i>
+              </button>
+            </div>
+            <div>
+              <p>
+                Hello, we are ERUFIT. Our goal is to keep you fit and healthy.
+                Enjoying every part of your body.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section class="terms">
+        <div class="media">
+          <h1>Erufit Tracker</h1>
+
+          <div class="conditions">
+            <a href="">Terms</a>
+            <a href="">Privacy</a>
+            <a href="">Cookies</a>
+          </div>
+
+          <div class="social-media">
+            <a href=""
+              ><i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i
+            ></a>
+            <a href=""
+              ><i class="fa-brands fa-facebook-f" style="color: #ffffff"></i
+            ></a>
+            <a href=""
+              ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+  </body>
+</html>

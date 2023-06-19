@@ -1,0 +1,294 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- FONTAWESOME ICON LINK -->
+    <link
+      rel="stylesheet"
+      href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+    />
+
+    <!-- GOOGLE FONT LINK -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Sofia"
+    />
+
+    <link rel="stylesheet" href="../CSS/bodymass.css" />
+    <title>BODY MASS INDEX</title>
+  </head>
+  <body>
+    <!-- NAVBAR SECTION -->
+    <section class="navbar-wrapper">
+      <nav>
+        <div class="navbar">
+          <a href="/Landing Page -updated/index.html" class="logo">ERUFIT </a>
+          <ul>
+            <a href="#calc">BMI calculator</a>
+            <a href="#track">BMI tracking</a>
+            <a href="#advice">Advisor</a>
+          </ul>
+        </div>
+        <div class="logout">
+          <button class="btn">
+            <a href="/Landing Page -updated/index.html"> sign out</a>
+            <span><i class="fa-solid fa-power-off"></i></span>
+          </button>
+        </div>
+      </nav>
+    </section>
+
+    <!-- SHOWCASE SECTION -->
+    <section class="bmi-showcase">
+      <div class="check-container">
+        <div class="bmi-check">
+          <p>Check Your <span>BMI.</span></p>
+          <p class="advice">Get <span>Personalized Advice.</span></p>
+        </div>
+        <div class="bmibtn">
+          <button>
+            Go to BMI calculator
+            <span><i class="fa-solid fa-circle-chevron-right"></i></span>
+          </button>
+          <p>
+            <span><i class="fa-solid fa-circle-chevron-right"></i></span> Your
+            BMI chart
+          </p>
+        </div>
+      </div>
+      <img src="../IMAGES/fitnessImage.png" alt="image" />
+    </section>
+
+    <!-- BMI CALCULATOR SECTION -->
+    <section class="calc-bmi">
+      <button class="calc-title" id="calc">BMI <span>Calculator</span></button>
+      <section class="card-wrapper">
+        <!-- FIRST CARD -->
+        <div class="card-container">
+          <h3>BMI calculator</h3>
+          <div class="bmi-height">
+            <p>Height (cm)</p>
+            <p class="dash"><input type="text" id="height" required /></p>
+          </div>
+          <div class="bmi-height">
+            <p>weight (kg)</p>
+            <p class="dash"><input type="text" id="weight" required /></p>
+          </div>
+          <button class="calculate" onclick="calculateBMI()">check</button>
+        </div>
+
+        <!-- SECOND CARD -->
+        <div class="bmi-result-container">
+          <div class="bmi-result">
+            <h1>Your Result:</h1>
+            <div class="result-details">
+              <h2>Result</h2>
+              <p class="number-read" id="result"></p>
+              <p>check advice after your BMI result</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!--  LAST BMI RECORD SECTION -->
+    <section class="bmi-record" id="track">
+      <button class="title-btn">Last <span>BMI Record</span></button>
+      <section class="record-card-wrapper">
+        <div class="record-card">
+          <div class="record-card-content">
+            <div class="record-card-number">
+              <h1>21.3</h1>
+            </div>
+            <div class="record-card-details">
+              <h4>Normal</h4>
+              <p>calculated on 13 january 2023</p>
+            </div>
+          </div>
+          <button class="record-card-btn">
+            <span class="fade"> Read</span> Advice
+            <span><i class="fa-solid fa-circle-chevron-right"></i></span>
+          </button>
+        </div>
+
+        <div class="record-card">
+          <div class="record-card-content">
+            <div class="record-card-number">
+              <h1>19.5</h1>
+            </div>
+            <div class="record-card-details">
+              <h4>Normal</h4>
+              <p>calculated on 10 january 2023</p>
+            </div>
+          </div>
+          <button class="record-card-btn">
+            <span class="fade"> Read</span> Advice
+            <span><i class="fa-solid fa-circle-chevron-right"></i></span>
+          </button>
+        </div>
+
+        <div class="record-card">
+          <div class="record-card-content">
+            <div class="record-card-number">
+              <h1>18.0</h1>
+            </div>
+            <div class="record-card-details">
+              <h4>Underweight</h4>
+              <p>calculated on 2 january 2023</p>
+            </div>
+          </div>
+          <button class="record-card-btn">
+            <span class="fade"> Read</span> Advice
+            <span><i class="fa-solid fa-circle-chevron-right"></i></span>
+          </button>
+        </div>
+      </section>
+    </section>
+
+    <!-- BMI SUGGESTION SECTION  -->
+    <section class="bmi-suggest" id="advice">
+      <button class="title-btn">
+        Because your last <span>BMI</span> was <span>Normal</span>
+      </button>
+      <section>
+        <div class="suggest-wrapper">
+          <div class="score-container">
+            <h1>Keep your BMI score on optimal level</h1>
+            <p>
+              Try to consume more protein as much as you can and workout to keep
+              your body in right shape.
+            </p>
+            <img src="../IMAGES/BMI FOOD.png" alt="image" />
+          </div>
+          <div class="suggest-content-wrapper">
+            <div class="suggest-content">
+              <div class="outline-logo"><i class="fa-solid fa-circle"></i></div>
+              <div class="suggest-advice">
+                <h1>Suggestion 1</h1>
+                <p>
+                  Hydration is essential for overall health and optimal
+                  performance during workouts. Make sure to drink an adequate
+                  amount of water throughout the day, especially before, during,
+                  and after exercise. The exact amount of water you need may
+                  vary depending on factors like your activity level, climate,
+                  and individual needs
+                </p>
+              </div>
+            </div>
+
+            <div class="suggest-content">
+              <div class="outline-logo" id="middle">
+                <i class="fa-solid fa-circle"></i>
+              </div>
+              <div class="suggest-advice">
+                <h1>Suggestion 2</h1>
+                <p>
+                  However, it's important to strike a balance. If your goal is
+                  weight loss, aim for a moderate caloric deficit that promotes
+                  gradual, sustainable weight loss. If you're looking to gain
+                  muscle or maintain weight, ensure you're consuming enough
+                  calories to support your activity levels and muscle growth.
+                </p>
+              </div>
+            </div>
+
+            <div class="suggest-content">
+              <div class="outline-logo"><i class="fa-solid fa-circle"></i></div>
+              <div class="suggest-advice">
+                <h1>Suggestion 3</h1>
+                <p>
+                  A balanced diet is key to supporting your fitness goals.
+                  Ensure that your meals contain a variety of nutrient-dense
+                  foods from different food groups, such as lean proteins, whole
+                  grains, fruits, vegetables, and healthy fats. This will
+                  provide your body with the necessary vitamins, minerals, and
+                  macronutrients for energy, muscle repair, and overall
+                  well-being.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+    </section>
+
+    <!-- Footer section of the webpage -->
+    <footer class="footer">
+      <section class="info-det">
+        <div class="info-section">
+          <h3>Product</h3>
+          <a href="">Fitness Tracker</a>
+          <a href="">Community</a>
+          <a href="">Fitness Meal</a>
+          <a href="">Time Tracking</a>
+          <a href="">Fitness Plan</a>
+        </div>
+
+        <div class="info-section">
+          <h3>Information</h3>
+          <a href="">FAQ</a>
+          <a href="">Blog</a>
+          <a href="">Support</a>
+        </div>
+
+        <div class="info-section">
+          <h3>Company</h3>
+          <a href="">About Us</a>
+          <a href="">Careers</a>
+          <a href="">Contact Us</a>
+          <a href="">Erufit Media</a>
+        </div>
+
+        <div class="subscribe">
+          <h3>Subscribe</h3>
+          <div class="subscribe-details">
+            <div class="mail-input">
+              <input type="email" placeholder="Email address" />
+              <button>
+                <i
+                  class="fa-solid fa-arrow-right-long"
+                  style="color: #ffffff"
+                ></i>
+              </button>
+            </div>
+            <div>
+              <p>
+                Hello, we are ERUFIT. Our goal is to keep you fit and healthy.
+                Enjoying every part of your body.
+              </p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="line"></div>
+
+      <section class="terms">
+        <div class="media">
+          <h1>Erufit Tracker</h1>
+
+          <div class="conditions">
+            <a href="">Terms</a>
+            <a href="">Privacy</a>
+            <a href="">Cookies</a>
+          </div>
+
+          <div class="social-media">
+            <a href=""
+              ><i class="fa-brands fa-linkedin-in" style="color: #ffffff"></i
+            ></a>
+            <a href=""
+              ><i class="fa-brands fa-facebook-f" style="color: #ffffff"></i
+            ></a>
+            <a href=""
+              ><i class="fa-brands fa-twitter" style="color: #ffffff"></i
+            ></a>
+          </div>
+        </div>
+      </section>
+    </footer>
+    <script src="../JavaScript/bodymass.js"></script>
+  </body>
+</html>
