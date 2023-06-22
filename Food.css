@@ -1,4 +1,4 @@
-<<<<<<< HEAD
+
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
 body {
   justify-content: center;
@@ -80,9 +80,7 @@ body {
   color: #0d1957;
   font-size: larger;
   border: none;
-=======
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
-body{
+
     justify-content: center;
     background-color: rgb(232, 242, 251);
     font-family: 'Montserrat', sans-serif;
@@ -174,7 +172,6 @@ width: 350px;
 height: 30px;
 } */
 
-<<<<<<< HEAD
 .body {
   display: grid;
   justify-content: center;
